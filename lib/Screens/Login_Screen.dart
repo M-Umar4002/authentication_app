@@ -101,35 +101,34 @@ class _LoginPageState extends State<LoginPage> {
                 ],
               ),
             ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Flexible(
-                  child: Container(
+            Container(
+              width: double.infinity,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
                     margin: EdgeInsets.only(right: 22),
-                    width: MediaQuery.of(context).size.width * 0.42,
+                    width: MediaQuery.of(context).size.width * 0.4,
                     child: Divider(
                       color: Color(0xff828282),
                     ),
                   ),
-                ),
-                Text(
-                  'OR',
-                  style: TextStyle(
-                      fontFamily: 'Al Bayan',
-                      fontWeight: FontWeight.w400,
-                      fontSize: 18),
-                ),
-                Flexible(
-                  child: Container(
+                  Text(
+                    'OR',
+                    style: TextStyle(
+                        fontFamily: 'Al Bayan',
+                        fontWeight: FontWeight.w400,
+                        fontSize: 18),
+                  ),
+                  Container(
                     margin: EdgeInsets.only(left: 22),
-                    width: MediaQuery.of(context).size.width * 0.42,
+                    width: MediaQuery.of(context).size.width * 0.4,
                     child: Divider(
                       color: Color(0xff828282),
                     ),
-                  ),
-                )
-              ],
+                  )
+                ],
+              ),
             ),
             Padding(
               padding: EdgeInsets.only(left: 25, right: 45),
