@@ -116,30 +116,33 @@ class _SignupPageState extends State<SignupPage> {
                 ],
               ),
             ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Container(
-                  margin: EdgeInsets.only(right: 14),
-                  width: MediaQuery.of(context).size.width * 0.4,
-                  child: Divider(
-                    color: Color(0xff828282),
-                  ),
-                ),
-                Text(
-                  'OR',
-                  style: TextStyle(
-                      fontFamily: 'Al Bayan',
-                      fontWeight: FontWeight.w400,
-                      fontSize: 18),
-                ),
-                Container(
-                    margin: EdgeInsets.only(left: 14),
-                    width: MediaQuery.of(context).size.width * 0.41,
+            Container(
+              width: double.infinity,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                    margin: EdgeInsets.only(right: 14),
+                    width: MediaQuery.of(context).size.width * 0.4,
                     child: Divider(
                       color: Color(0xff828282),
-                    ))
-              ],
+                    ),
+                  ),
+                  Text(
+                    'OR',
+                    style: TextStyle(
+                        fontFamily: 'Al Bayan',
+                        fontWeight: FontWeight.w400,
+                        fontSize: 18),
+                  ),
+                  Container(
+                      margin: EdgeInsets.only(left: 14),
+                      width: MediaQuery.of(context).size.width * 0.41,
+                      child: Divider(
+                        color: Color(0xff828282),
+                      ))
+                ],
+              ),
             ),
             Padding(
               padding: EdgeInsets.only(left: 25, right: 45),

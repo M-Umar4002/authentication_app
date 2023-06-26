@@ -107,7 +107,7 @@ class _LoginPageState extends State<LoginPage> {
                 Flexible(
                   child: Container(
                     margin: EdgeInsets.only(right: 22),
-                    width: MediaQuery.of(context).size.width * 0.43,
+                    width: MediaQuery.of(context).size.width * 0.42,
                     child: Divider(
                       color: Color(0xff828282),
                     ),
@@ -123,7 +123,7 @@ class _LoginPageState extends State<LoginPage> {
                 Flexible(
                   child: Container(
                     margin: EdgeInsets.only(left: 22),
-                    width: MediaQuery.of(context).size.width * 0.43,
+                    width: MediaQuery.of(context).size.width * 0.42,
                     child: Divider(
                       color: Color(0xff828282),
                     ),
