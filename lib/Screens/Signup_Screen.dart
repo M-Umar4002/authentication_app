@@ -137,7 +137,7 @@ class _SignupPageState extends State<SignupPage> {
                   ),
                   Container(
                       margin: EdgeInsets.only(left: 14),
-                      width: MediaQuery.of(context).size.width * 0.41,
+                      width: MediaQuery.of(context).size.width * 0.4,
                       child: Divider(
                         color: Color(0xff828282),
                       ))
